@@ -72,22 +72,23 @@
             // 
             this.label3.Location = new System.Drawing.Point(1, 86);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(267, 75);
+            this.label3.Size = new System.Drawing.Size(267, 99);
             this.label3.TabIndex = 2;
             this.label3.Text = "When the user hits the button, the label below should output Happy Hump Day";
             // 
             // question01Button
             // 
-            this.question01Button.Location = new System.Drawing.Point(5, 147);
+            this.question01Button.Location = new System.Drawing.Point(5, 179);
             this.question01Button.Name = "question01Button";
             this.question01Button.Size = new System.Drawing.Size(119, 35);
             this.question01Button.TabIndex = 3;
             this.question01Button.Text = "Question 01";
             this.question01Button.UseVisualStyleBackColor = true;
+            this.question01Button.Click += new System.EventHandler(this.question01Button_Click);
             // 
             // question1OutputLabel
             // 
-            this.question1OutputLabel.Location = new System.Drawing.Point(1, 185);
+            this.question1OutputLabel.Location = new System.Drawing.Point(1, 217);
             this.question1OutputLabel.Name = "question1OutputLabel";
             this.question1OutputLabel.Size = new System.Drawing.Size(247, 47);
             this.question1OutputLabel.TabIndex = 4;
@@ -95,7 +96,7 @@
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(1, 295);
+            this.label4.Location = new System.Drawing.Point(1, 281);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(148, 29);
             this.label4.TabIndex = 5;
@@ -103,32 +104,33 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(1, 324);
+            this.label5.Location = new System.Drawing.Point(1, 307);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(387, 75);
+            this.label5.Size = new System.Drawing.Size(387, 95);
             this.label5.TabIndex = 6;
             this.label5.Text = "The user will enter their name.  The label will output \"Hello USERNAME\" (replace " +
     "USERNAME with the users input";
             // 
             // question2Button
             // 
-            this.question2Button.Location = new System.Drawing.Point(5, 417);
+            this.question2Button.Location = new System.Drawing.Point(5, 451);
             this.question2Button.Name = "question2Button";
             this.question2Button.Size = new System.Drawing.Size(119, 35);
             this.question2Button.TabIndex = 7;
             this.question2Button.Text = "Question 02";
             this.question2Button.UseVisualStyleBackColor = true;
+            this.question2Button.Click += new System.EventHandler(this.question2Button_Click);
             // 
             // question2TextBox
             // 
-            this.question2TextBox.Location = new System.Drawing.Point(5, 385);
+            this.question2TextBox.Location = new System.Drawing.Point(5, 404);
             this.question2TextBox.Name = "question2TextBox";
-            this.question2TextBox.Size = new System.Drawing.Size(286, 26);
+            this.question2TextBox.Size = new System.Drawing.Size(286, 31);
             this.question2TextBox.TabIndex = 8;
             // 
             // question2OutputLabel
             // 
-            this.question2OutputLabel.Location = new System.Drawing.Point(1, 455);
+            this.question2OutputLabel.Location = new System.Drawing.Point(1, 489);
             this.question2OutputLabel.Name = "question2OutputLabel";
             this.question2OutputLabel.Size = new System.Drawing.Size(319, 47);
             this.question2OutputLabel.TabIndex = 9;
@@ -159,24 +161,25 @@
             this.question3Button.TabIndex = 12;
             this.question3Button.Text = "Question 03";
             this.question3Button.UseVisualStyleBackColor = true;
+            this.question3Button.Click += new System.EventHandler(this.question3Button_Click);
             // 
             // q3Int1Text
             // 
             this.q3Int1Text.Location = new System.Drawing.Point(479, 281);
             this.q3Int1Text.Name = "q3Int1Text";
-            this.q3Int1Text.Size = new System.Drawing.Size(100, 26);
+            this.q3Int1Text.Size = new System.Drawing.Size(100, 31);
             this.q3Int1Text.TabIndex = 13;
             // 
             // q3int2Text
             // 
             this.q3int2Text.Location = new System.Drawing.Point(638, 281);
             this.q3int2Text.Name = "q3int2Text";
-            this.q3int2Text.Size = new System.Drawing.Size(100, 26);
+            this.q3int2Text.Size = new System.Drawing.Size(100, 31);
             this.q3int2Text.TabIndex = 14;
             // 
             // question3OutputLabel
             // 
-            this.question3OutputLabel.Location = new System.Drawing.Point(477, 388);
+            this.question3OutputLabel.Location = new System.Drawing.Point(477, 362);
             this.question3OutputLabel.Name = "question3OutputLabel";
             this.question3OutputLabel.Size = new System.Drawing.Size(295, 47);
             this.question3OutputLabel.TabIndex = 15;
@@ -211,7 +214,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.label10);
